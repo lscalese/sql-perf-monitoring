@@ -3,6 +3,9 @@
 zn "%SYS"
 Do ##class(Security.Users).UnExpireUserPasswords("*")
 
+set $namespace="%SYS" do ##class(Security.SSLConfigs).Create("ssl") set r=##class(%Net.HttpRequest).%New(),r.Server="pm.community.intersystems.com",r.SSLConfiguration="ssl" do r.Get("/packages/zpm/latest/installer"),$system.OBJ.LoadStream(r.HttpResponse.Data,"c")
+
+
 zn "USER"
 zpm "load /opt/irisbuild/ -v":1:1
 halt

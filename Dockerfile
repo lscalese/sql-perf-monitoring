@@ -1,5 +1,6 @@
 ARG IMAGE=intersystemsdc/irishealth-community
 ARG IMAGE=intersystemsdc/iris-community
+ARG IMAGE=containers.intersystems.com/intersystems/iris:2021.1.0.215.0
 FROM $IMAGE
 
 USER root   
@@ -14,6 +15,8 @@ USER ${ISC_PACKAGE_MGRUSER}
 COPY  src src
 COPY module.xml module.xml
 COPY iris.script iris.script
+
+COPY iris.key /usr/irissys/mgr/iris.key
 
 RUN iris start IRIS \
 	&& iris session IRIS < iris.script \

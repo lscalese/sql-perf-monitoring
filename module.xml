@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="objectscript-template.ZPM">
+  <Document name="sql-perf-monitoring.ZPM">
     <Module>
-      <Name>objectscript-template</Name>
-      <Version>1.1.2</Version>
+      <Name>sql-perf-monitoring</Name>
+      <Version>1.0.0</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="dc.PackageSample.PKG"/>
+      <Resource Name="DRL.PKG"/>
     </Module>
   </Document>
 </Export>
