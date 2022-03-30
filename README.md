@@ -1,4 +1,4 @@
-## intersystems-objectscript-template
+## sql-perf-monitoring
 
 This is a sql query performance tool provided by [David Loveluck](https://community.intersystems.com/user/david-loveluck).  
 See the related [community article](https://community.intersystems.com/post/apm-%E2%80%93-monitoring-sql-query-performance) for more informations.  
