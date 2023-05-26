@@ -16,7 +16,7 @@ COPY  src src
 COPY module.xml module.xml
 COPY iris.script iris.script
 
-COPY iris.key /usr/irissys/mgr/iris.key
+# COPY iris.key /usr/irissys/mgr/iris.key
 
 RUN iris start IRIS \
 	&& iris session IRIS < iris.script \
