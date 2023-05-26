@@ -1,6 +1,6 @@
 ARG IMAGE=intersystemsdc/irishealth-community
 ARG IMAGE=intersystemsdc/iris-community
-ARG IMAGE=containers.intersystems.com/intersystems/iris:2021.1.0.215.0
+# ARG IMAGE=containers.intersystems.com/intersystems/iris:2021.1.0.215.0
 FROM $IMAGE
 
 USER root   
