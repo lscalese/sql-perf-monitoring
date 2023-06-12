@@ -1,5 +1,7 @@
 ## sql-perf-monitoring
 
+** NOTE ** Since an IRIS update 2022.1 this package is obsolete and has been removed from OpenExchange.
+
 This is a sql query performance tool provided by [David Loveluck](https://community.intersystems.com/user/david-loveluck).  
 See the related [community article](https://community.intersystems.com/post/apm-%E2%80%93-monitoring-sql-query-performance) for more information.  
 
